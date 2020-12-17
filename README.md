@@ -58,3 +58,13 @@ Here are some questions to consider:
     * takes a `String` argument that is the name of a department and returns the first employee whose manager is working in that department
   * `Employee#tax_bracket`
     * returns an `Array` of all the employees whose salaries are within $1000 (± 1000) of the employee who invoked the method
+
+
+april = Manager.new("April", "Kitchen", 32)
+jim = Manager.new("Jim", "FOH", 37)
+
+jim.hire_employee("Ivan", 90000)
+jim.hire_employee("Ally", 80000)
+Jim.hire_employee("Eric", 80000)
+april.hire_employee("Evan", 90000)
+april.hire_employee("Mad", 80000)
